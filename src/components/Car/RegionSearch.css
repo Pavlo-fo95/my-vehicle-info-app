@@ -1,0 +1,28 @@
+.region-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.region-search input {
+  margin: 10px 0;
+  padding: 5px;
+  width: 200px;
+}
+
+.region-search button {
+  padding: 5px 10px;
+}
+
+.region-search .ukraine-map {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.region-search .ukraine-map img {
+  max-width: 100%;
+  height: auto;
+}

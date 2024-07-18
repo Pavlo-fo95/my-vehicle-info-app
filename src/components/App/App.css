@@ -1,0 +1,142 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  font-weight: 300;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin: 10px 0;
+  max-width: 600px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.filter {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.arrow {
+  margin-left: 5px;
+  border: solid rgb(12, 11, 11);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.filter .arrow {
+  margin-left: 10px;
+}
+
+.find-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-image-container {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.large-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bestsellers {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 1.5rem;
+  color: #888;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.cars-wrapper {
+  margin-top: 20px;
+}
+
+.car-container {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-wrapper {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.carousel-wrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.car-slider {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.car-slide {
+  padding: 10px;
+}
+
+.slick-prev,
+.slick-next {
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: rgb(212, 197, 197);
+}
+
+.slick-dots li.slick-active button:before {
+  color: black;
+}
