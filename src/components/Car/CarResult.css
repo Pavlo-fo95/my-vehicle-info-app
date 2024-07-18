@@ -1,59 +1,25 @@
 .car-result-card {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .car-result-card img {
-    max-width: 300px;
-    border-radius: 8px;
-    margin-right: 20px;
-  }
-  
-  .car-result-details {
-    flex: 1;
-  }
-  
-  .car-result-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .car-result-header h2 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #333;
-  }
-  
-  .car-result-info {
-    margin-bottom: 10px;
-  }
-  
-  .car-result-info p {
-    margin: 0;
-    color: #666;
-  }
-  
-  .car-result-links {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .car-result-links a {
-    color: #007bff;
-    text-decoration: none;
-    margin-right: 10px;
-  }
-  
-  .car-result-links a:hover {
-    text-decoration: underline;
-  }
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.car-result-details {
+  margin-top: 16px;
+}
+
+.car-result-header h2 {
+  margin: 0;
+}
+
+.car-result-info p,
+.car-result-operations p {
+  margin: 8px 0;
+}
+
+.operation {
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+  margin-top: 8px;
+}
