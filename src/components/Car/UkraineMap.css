@@ -1,11 +1,13 @@
-.ukraine-map {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ukraine-map svg {
+.svg-map {
   width: 100%;
   height: auto;
+}
+
+.svg-map .region {
+  cursor: pointer;
+  fill: #e9e4a5; 
+}
+
+.svg-map .region:hover {
+  fill: #1980f7; 
 }
