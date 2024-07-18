@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Car } from './Car';
 import CustomSearchInput from '../Car/CustomSearchInput';
+import UkraineMap from './UkraineMap';
 import './CarResult.css';
 
 interface CarResultProps {
@@ -54,6 +55,7 @@ const CarResult: React.FC<CarResultProps> = ({ car }) => {
             <p>Нет операций, соответствующих поисковому запросу.</p>
           )}
         </div>
+        <UkraineMap />
       </div>
     </div>
   );

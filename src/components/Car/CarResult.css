@@ -3,6 +3,7 @@
   border-radius: 8px;
   padding: 16px;
   margin: 16px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .car-result-details {
@@ -10,12 +11,17 @@
 }
 
 .car-result-header h2 {
-  margin: 0;
+  margin: 0 0 8px 0;
 }
 
-.car-result-info p,
-.car-result-operations p {
-  margin: 8px 0;
+.car-photo {
+  max-width: 100%;
+  height: auto;
+  margin: 16px 0;
+}
+
+.car-operations {
+  margin-top: 16px;
 }
 
 .operation {

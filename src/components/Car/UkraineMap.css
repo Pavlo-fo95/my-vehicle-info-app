@@ -6,6 +6,8 @@
 .svg-map .region {
   cursor: pointer;
   fill: #e9e4a5; 
+  stroke: #000;
+  stroke-width: 0.5px;
 }
 
 .svg-map .region:hover {
