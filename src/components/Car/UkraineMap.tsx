@@ -1,7 +1,7 @@
 import React from 'react';
 import { SVGMap } from 'react-svg-map';
 import 'react-svg-map/lib/index.css';
-import ukraine from '@svg-maps/ukraine';
+import ukraine from './ukraine-topo.json'; 
 import './UkraineMap.css';
 
 const UkraineMap: React.FC = () => {
