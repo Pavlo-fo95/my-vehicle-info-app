@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.58a6cee3.css",
-    "main.js": "/static/js/main.43b78c5b.js",
-    "static/js/453.0b136854.chunk.js": "/static/js/453.0b136854.chunk.js",
-    "index.html": "/index.html",
-    "main.58a6cee3.css.map": "/static/css/main.58a6cee3.css.map",
-    "main.43b78c5b.js.map": "/static/js/main.43b78c5b.js.map",
-    "453.0b136854.chunk.js.map": "/static/js/453.0b136854.chunk.js.map"
+    "main.css": "/my-vehicle-info-app/static/css/main.58a6cee3.css",
+    "main.js": "/my-vehicle-info-app/static/js/main.5eed5168.js",
+    "static/js/453.0b136854.chunk.js": "/my-vehicle-info-app/static/js/453.0b136854.chunk.js",
+    "index.html": "/my-vehicle-info-app/index.html",
+    "main.58a6cee3.css.map": "/my-vehicle-info-app/static/css/main.58a6cee3.css.map",
+    "main.5eed5168.js.map": "/my-vehicle-info-app/static/js/main.5eed5168.js.map",
+    "453.0b136854.chunk.js.map": "/my-vehicle-info-app/static/js/453.0b136854.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58a6cee3.css",
-    "static/js/main.43b78c5b.js"
+    "static/js/main.5eed5168.js"
   ]
 }
