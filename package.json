@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pavlo-fo95/my-vehicle-info-app.git"
+    "url": "https://Pavlo-fo95.github.io/my-vehicle-info-app"
   },
   "dependencies": {
     "@emotion/react": "^11.11.4",
